@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser (chrome) launched]]>
+    </line>
+    <line>
+      <![CDATA[Implicit wait implemented]]>
+    </line>
+    <line>
+      <![CDATA[Application opened with baseUrl, which is: https://www.saucedemo.com/]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in email textbox located by, By.id: user-name]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in password textbox located by, By.id: password]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on login button located by, By.id: login-button]]>
+    </line>
+    <line>
+      <![CDATA[Text captured from locator, By.xpath: //span[@class='title']]]>
+    </line>
+    <line>
+      <![CDATA[Text verified successfully, which is equals to: Products]]>
+    </line>
+    <line>
+      <![CDATA[Application opened with baseUrl, which is: https://www.saucedemo.com/]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in email textbox located by, By.id: user-name]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in password textbox located by, By.id: password]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on login button located by, By.id: login-button]]>
+    </line>
+    <line>
+      <![CDATA[Text captured from locator, By.tagName: h3]]>
+    </line>
+    <line>
+      <![CDATA[Application opened with baseUrl, which is: https://www.saucedemo.com/]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in email textbox located by, By.id: user-name]]>
+    </line>
+    <line>
+      <![CDATA[Value filled in password textbox located by, By.id: password]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on login button located by, By.id: login-button]]>
+    </line>
+    <line>
+      <![CDATA[Text captured from locator, By.tagName: h3]]>
+    </line>
+    <line>
+      <![CDATA[Browser and session quit]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-22T22:13:40 IST" name="Suite" finished-at="2024-08-22T22:13:44 IST" duration-ms="4122">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.verifyValidLogin()[pri:1, instance:tests.LoginTest@5965d37]" name="verifyValidLogin" class="tests.LoginTest"/>
+        <method signature="LoginTest.verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@5965d37]" name="verifyInvalidLogin" class="tests.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.verifyValidLogin()[pri:1, instance:tests.LoginTest@5965d37]" name="verifyValidLogin" class="tests.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-08-22T22:13:40 IST" name="ChromeTestCases" finished-at="2024-08-22T22:13:44 IST" duration-ms="4122">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,int,java.lang.String)[pri:0, instance:tests.LoginTest@5965d37]" started-at="2024-08-22T22:13:40 IST" name="setup" finished-at="2024-08-22T22:13:42 IST" duration-ms="1960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser (chrome) launched]]>
+            </line>
+            <line>
+              <![CDATA[Implicit wait implemented]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyValidLogin()[pri:1, instance:tests.LoginTest@5965d37]" started-at="2024-08-22T22:13:42 IST" name="verifyValidLogin" finished-at="2024-08-22T22:13:44 IST" duration-ms="1402" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application opened with baseUrl, which is: https://www.saucedemo.com/]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in email textbox located by, By.id: user-name]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in password textbox located by, By.id: password]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on login button located by, By.id: login-button]]>
+            </line>
+            <line>
+              <![CDATA[Text captured from locator, By.xpath: //span[@class='title']]]>
+            </line>
+            <line>
+              <![CDATA[Text verified successfully, which is equals to: Products]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@5965d37]" started-at="2024-08-22T22:13:44 IST" name="verifyInvalidLogin" data-provider="InvalidLogin" finished-at="2024-08-22T22:13:44 IST" duration-ms="312" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[randomUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[somethingNotCorrect]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Application opened with baseUrl, which is: https://www.saucedemo.com/]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in email textbox located by, By.id: user-name]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in password textbox located by, By.id: password]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on login button located by, By.id: login-button]]>
+            </line>
+            <line>
+              <![CDATA[Text captured from locator, By.tagName: h3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method signature="verifyInvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:tests.LoginTest@5965d37]" started-at="2024-08-22T22:13:44 IST" name="verifyInvalidLogin" data-provider="InvalidLogin" finished-at="2024-08-22T22:13:44 IST" duration-ms="267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Sorry, this user has been locked out.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Application opened with baseUrl, which is: https://www.saucedemo.com/]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in email textbox located by, By.id: user-name]]>
+            </line>
+            <line>
+              <![CDATA[Value filled in password textbox located by, By.id: password]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on login button located by, By.id: login-button]]>
+            </line>
+            <line>
+              <![CDATA[Text captured from locator, By.tagName: h3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5965d37]" started-at="2024-08-22T22:13:44 IST" name="tearDown" finished-at="2024-08-22T22:13:44 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser and session quit]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- ChromeTestCases -->
+  </suite> <!-- Suite -->
+</testng-results>

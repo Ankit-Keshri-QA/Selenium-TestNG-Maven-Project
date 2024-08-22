@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<test name="ChromeTestCases">
+		<parameter name="browser" value="chrome" />
+		<parameter name="implicitlyWait" value="15" />
+		<parameter name="baseUrl" value="https://www.saucedemo.com/" />
+		<classes>
+			<class name="tests.LoginTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
